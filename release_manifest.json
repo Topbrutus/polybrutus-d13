@@ -3,7 +3,7 @@
   "dimension": 13,
   "repository": "Topbrutus/polybrutus-d13",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 18,
   "pairs": 153,
   "affine_rank": 13,
@@ -12,16 +12,54 @@
   "parent_doi": "10.5281/zenodo.24408720",
   "parent_github_tag": "Topbrutus/polybrutus-d12@v0.1.0",
   "parent_tag_commit": "e6ea0d1d174bcd9580e4d1d1c5c5dd2355cc935e",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "4d5f10de586e6677ddbe1d90b18218b46602d14e",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24408769,
+  "zenodo_doi": "10.5281/zenodo.24408769",
   "scientific_delta": "Exact dimension-13 labelled metric, full 153-pair certificate and sevenfold eigenvalue 9 in selected complete weighted graph",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
-  "human_peer_review": "NOT DONE",
+  "human_peer_review": "NOT_DONE",
   "base_13_historical_relevance": "UNDEMONSTRATED; NUMBER 13 DOES NOT PROVE 13R OR BASE-13 THEORY",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted symbolic derivation, independent verifier, drafting and publication; AI not author",
-  "verification": "Main and independent rational programs PASS locally; GitHub Actions pending",
-  "next_action": "Private GitHub repo, full CI PASS, freeze source tag, stage and validate Zenodo, publish both only after proof and checksum checks"
+  "verification": {
+    "coordinate_rank": "PASS",
+    "centered_gram_rank": "PASS",
+    "gram_psd_symbolic_identity": "PASS",
+    "parent_labelled_pairs": "136/136 PASS",
+    "new_labelled_pairs": "17/17 PASS",
+    "independent_exact_pairs": "153/153 PASS",
+    "negative_controls": "4/4 PASS",
+    "ideal_graph_modes": "9 x7; 17/2 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "On NEXT go start D14 from immutable D13 tag v0.1.0, target 19 vertices, 171 pairs, 153 previous labelled distances preserved and affine rank 14. Do not begin before next go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44841821545,
+    "conclusion": "success",
+    "head_sha": "4d5f10de586e6677ddbe1d90b18218b46602d14e"
+  },
+  "github_main_note": "Postpublication DOI and integrity metadata may move main; scientific v0.1.0 tag frozen and unchanged.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D13_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 148978,
+      "sha256": "5c999afbb8d3d6d68993cda17247eeb9f0c0c3c7db977d3d5496ac78b716f8c3"
+    },
+    {
+      "name": "POLYBRUTUS_13D_NOTE.pdf",
+      "size": 151316,
+      "sha256": "6f6542bdecd14612b483cd52f7f6392c046002965e56b20809adec744323bebd"
+    },
+    {
+      "name": "certificate_d13.json",
+      "size": 13287,
+      "sha256": "f493d3a59c73e1c6b990a0c1959bfc7afe4c9e9748c9dfb6a04c32477358d55c"
+    }
+  ],
+  "historical_base_13": "UNDEMONSTRATED",
+  "publication_approval": "Topbrutus established that go starts a single new dimension with separate GitHub/Zenodo; gave go for D13."
 }
