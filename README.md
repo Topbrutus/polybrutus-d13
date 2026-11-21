@@ -1,5 +1,14 @@
 # POLYBRUTUS 13D — Exact Euclidean metric and sevenfold ideal graph mode
 
+## Published and independently verified release
+
+- **Official Zenodo DOI:** [10.5281/zenodo.24408769](https://doi.org/10.5281/zenodo.24408769), record [24408769](https://zenodo.org/records/24408769), checked through Zenodo public REST API.
+- **Frozen scientific source:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d13/tree/v0.1.0), commit `4d5f10de586e6677ddbe1d90b18218b46602d14e`.
+- **GitHub Actions:** [Exact and independent D13 verification](https://github.com/Topbrutus/polybrutus-d13/actions/runs/44841821545), conclusion `success` on frozen source commit.
+- **Zenodo files:** tagged Git source ZIP, complete mathematics note PDF, and labelled 153-pair JSON certificate; exact sizes and checksums publicly validated.
+- **Scientific scope:** exact affine distance geometry and chosen ideal graph, not new physics or a universal theorem.
+
+
 **Human author and scientific responsibility:** Gabriel St-Pierre (Topbrutus), independent researcher.  
 **Scientific status:** exact reproducible computational case study, no human peer review.  
 **AI-use disclosure:** OpenAI ChatGPT (Astra) substantially assisted symbolic computation, rational independent checking, research note drafting and GitHub/Zenodo publication operations. AI is not an author.
